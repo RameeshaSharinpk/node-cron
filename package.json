@@ -2,10 +2,10 @@
   "name": "test-server",
   "version": "1.0.0",
   "description": "A test server for server.js",
-  "main": "api/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
