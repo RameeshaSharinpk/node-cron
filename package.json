@@ -2,7 +2,7 @@
   "name": "test-server",
   "version": "1.0.0",
   "description": "A test server for server.js",
-  "main": "api/server.js",
+  "main": "api/index.js",
   "type": "module",
   "scripts": {
     "start": "node api/index.js"
