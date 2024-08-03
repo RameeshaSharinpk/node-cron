@@ -109,7 +109,7 @@ async function clearCounterDoc(counterCollectionRef) {
 }
 
 
-cron.schedule('15 11 * * *', async () => {
+cron.schedule('0 0 * * *', async () => {
   console.log('Cron job started at:', new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
   try {
     await clearCollection('requests');
